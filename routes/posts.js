@@ -39,7 +39,7 @@ router.get('/:postId', async (req, res) => {
 });
 
 
-// delete an entry
+// delete an entry new change now
 router.delete('/:postId', async (req, res) => {
     try{
       const removedPost = await Post.remove({_id: req.params.postId});
